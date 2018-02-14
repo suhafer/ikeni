@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ikeni</string>
+
+    <string name="ask_experience">Enjoying our App?</string>
+    <string name="ask_feedback">Would you mind giving us some feedback?</string>
+    <string name="ask_rate">How about a rating on the App Store, then?</string>
+    <string name="accept">OK, sure</string>
+    <string name="accept_send">Send</string>
+    <string name="accept_experience">Yes!</string>
+    <string name="refuse">No, thanks</string>
+    <string name="refuse_experience">Not really</string>
+    <string name="message_feedback">We\'ll be glad to receive your feedback</string>
+</resources>
