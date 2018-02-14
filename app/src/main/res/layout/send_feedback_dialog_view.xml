@@ -4,13 +4,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/black"
+    android:background="@color/ikeniBlack"
     android:orientation="vertical"
     android:padding="@dimen/space_16">
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/message"
-        style="@style/TextViewTitle.White"
+        style="@style/IkeniTextTitle.White"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -21,20 +21,20 @@
 
     <android.support.v7.widget.AppCompatEditText
         android:id="@+id/et_feedback"
-        style="@style/DefaultEditText"
+        style="@style/IkeniEditText"
         android:gravity="start"
         android:layout_marginBottom="@dimen/space_8"
         android:layout_marginEnd="@dimen/space_8"
         android:layout_marginLeft="@dimen/space_8"
         android:layout_marginRight="@dimen/space_8"
         android:layout_marginStart="@dimen/space_8"
-        android:background="@drawable/background_plain"
+        android:background="@drawable/ikeni_bg_plain"
         android:lines="3"
         />
 
     <Button
         android:id="@+id/choice_yes"
-        style="@style/Button.White.Bordered"
+        style="@style/IkeniButton.White.Bordered"
         android:layout_marginBottom="@dimen/space_4"
         android:layout_marginEnd="@dimen/space_8"
         android:layout_marginLeft="@dimen/space_8"

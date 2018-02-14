@@ -4,11 +4,11 @@
     <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="colorAccent">#000000</color>
 
-    <color name="textInactive">#888888</color>
-    <color name="buttonActive">#000000</color>
-    <color name="buttonInactive">#dddddd</color>
+    <color name="ikeniTextInactive">#888888</color>
+    <color name="ikeniButtonActive">#000000</color>
+    <color name="ikeniButtonInactive">#dddddd</color>
 
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
+    <color name="ikeniBlack">#000000</color>
+    <color name="ikeniWhite">#FFFFFF</color>
 
 </resources>
