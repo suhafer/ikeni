@@ -2,17 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_enabled="false"
-        android:drawable="@drawable/button_shape_inactive"/>
+        android:color="@color/ikeniTextInactive"/>
     <item
         android:state_pressed="true"
         android:state_enabled="true"
-        android:drawable="@drawable/background_bordered">
-    </item>
+        android:color="@color/ikeniBlack" />
     <item
         android:state_focused="true"
         android:state_enabled="true"
-        android:drawable="@drawable/background_bordered" />
+        android:color="@color/ikeniBlack" />
     <item
         android:state_enabled="true"
-        android:drawable="@drawable/background_bordered" />
+        android:color="@color/ikeniBlack" />
+
 </selector>

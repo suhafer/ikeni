@@ -177,7 +177,7 @@ public class Ikeni
         View           dialogView = inflater.inflate(R.layout.send_feedback_dialog_view, null);
         sDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         sDialog.setContentView(dialogView);
-        final EditText etFeedback = dialogView.findViewById(R.id.et_feedback);
+        final EditText etFeedback = (EditText) dialogView.findViewById(R.id.et_feedback);
 
         dialogView.findViewById(R.id.choice_yes).setOnClickListener(new View.OnClickListener()
         {
